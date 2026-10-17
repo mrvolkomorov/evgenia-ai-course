@@ -47,6 +47,7 @@
       display: inline-flex; align-items: center; gap: 6px;
     }
     .card.disabled .card-link { color: #999aad; }
+    .card-links { display: flex; flex-wrap: wrap; gap: 10px 16px; margin-top: 4px; }
     .footer { text-align: center; color: rgba(255, 255, 255, 0.78); font-size: 13px; margin-top: 48px; }
   </style>
 </head>
@@ -71,9 +72,12 @@
       <a class="card" href="https://docs.google.com/document/d/1XejXUV8hU0kffB97i4IeE1kvborAQ_C7qmt9O28EY_E/edit" target="_blank" rel="noopener">
         <div class="card-icon">📝</div>
         <span class="card-tag lesson">Занятие 1 · 17.10.2026</span>
-        <div class="card-title">Конспект вводного занятия</div>
+        <div class="card-title">Вводное занятие</div>
         <div class="card-desc">Чат-боты vs API, техники промптинга, архитектура агентов, безопасность данных и стек инструментов.</div>
-        <span class="card-link">Открыть конспект →</span>
+        <div class="card-links">
+          <a class="card-link" href="https://docs.google.com/document/d/1XejXUV8hU0kffB97i4IeE1kvborAQ_C7qmt9O28EY_E/edit" target="_blank" rel="noopener">📝 Конспект →</a>
+          <a class="card-link" href="https://dri.me/hFiRCXtgzrkXpb7WXbrEmD7TAhkvYG" target="_blank" rel="noopener">📊 Презентация →</a>
+        </div>
       </a>
 
       <div class="card disabled">
